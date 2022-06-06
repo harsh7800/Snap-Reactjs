@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Snap-Reactjs/static/css/main.f9949ea8.css",
-    "main.js": "/Snap-Reactjs/static/js/main.50679dcd.js",
+    "main.css": "/Snap-Reactjs/static/css/main.c748fdce.css",
+    "main.js": "/Snap-Reactjs/static/js/main.7391a7e4.js",
     "static/media/image-hero-desktop.png": "/Snap-Reactjs/static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
     "static/media/image-hero-mobile.png": "/Snap-Reactjs/static/media/image-hero-mobile.adefc8b1bbed2ca80470.png",
     "static/media/error.jpg": "/Snap-Reactjs/static/media/error.3a63287b62747289cfe0.jpg",
@@ -18,11 +18,11 @@
     "static/media/icon-menu.svg": "/Snap-Reactjs/static/media/icon-menu.863803c904916606b7a1998b3c5736aa.svg",
     "static/media/icon-arrow-down.svg": "/Snap-Reactjs/static/media/icon-arrow-down.bebf05132571af33611ede9cdfdbed0f.svg",
     "static/media/icon-arrow-up.svg": "/Snap-Reactjs/static/media/icon-arrow-up.01861a1152dfab5f1070228d306352f4.svg",
-    "main.f9949ea8.css.map": "/Snap-Reactjs/static/css/main.f9949ea8.css.map",
-    "main.50679dcd.js.map": "/Snap-Reactjs/static/js/main.50679dcd.js.map"
+    "main.c748fdce.css.map": "/Snap-Reactjs/static/css/main.c748fdce.css.map",
+    "main.7391a7e4.js.map": "/Snap-Reactjs/static/js/main.7391a7e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9949ea8.css",
-    "static/js/main.50679dcd.js"
+    "static/css/main.c748fdce.css",
+    "static/js/main.7391a7e4.js"
   ]
 }
