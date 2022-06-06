@@ -1,0 +1,120 @@
+$heading-font: "Concert One", cursive;
+$p-font: "DM sans", cursive;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.features-dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  h2 {
+    font-size: 1.3em;
+    cursor: pointer;
+    font-family: "Concert One", cursive;
+  }
+  .features-item {
+    display: none;
+  }
+  .features-item.show {
+    display: block;
+    position: absolute;
+    top: 2.5em;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    width: 8em;
+    height: 7em;
+    border-radius: 10px;
+    font-family: "DM sans", cursive;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    left: 20%;
+    padding-top: 5%;
+    #li{
+          margin-left: 10%;
+          text-decoration: none;
+          font-family: "Concert One", cursive;
+          color: rgba(0, 0, 0, 0.514);
+                  &:hover{
+                        color: black;
+                        transition: all ease-in .2s;
+                  }
+    }
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .features-dropdown {
+    display: block;
+    position: relative;
+    h2 {
+      font-size: 1.3em;
+      cursor: pointer;
+      font-family: "Concert One", cursive;
+      margin-left: 1.5em;
+    }
+    .features-item {
+      display: none;
+      position: relative;
+    }
+    .features-item.show {
+      display: block;
+      position: relative;
+      top: 0.5em;
+      left: 10%;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-align: left;
+      width: 7em;
+      height: 8em;
+      border-radius: 10px;
+      font-family: "DM sans", cursive;
+      background: transparent;
+      box-shadow: 0px 0px 0px 0px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .features-dropdown {
+    display: block;
+    position: relative;
+    h2 {
+      font-size: 1.3em;
+      cursor: pointer;
+      font-family: "Concert One", cursive;
+    }
+    .features-item {
+      display: none;
+      position: relative;
+    }
+    .features-item.show {
+      display: block;
+      position: relative;
+      top: 0.5em;
+      left: 10%;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-align: left;
+      width: 7em;
+      height: 8em;
+      border-radius: 10px;
+      font-family: "DM sans", cursive;
+      background: transparent;
+      box-shadow: 0px 0px 0px 0px;
+    }
+  }
+}

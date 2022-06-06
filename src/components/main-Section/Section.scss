@@ -1,0 +1,24 @@
+.section-content{
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+      .section-content{
+      display: flex;
+      align-items: center;
+      flex-direction: column-reverse;
+      position: relative;
+      align-items: center;
+}
+}
+@media (max-width: 600px){
+      .section-content{
+      display: flex;
+      align-items: center;
+      flex-direction: column-reverse;
+      position: relative;
+      align-items: center;
+}
+}

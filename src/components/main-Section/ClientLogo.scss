@@ -1,0 +1,16 @@
+.client-logo{
+      display: flex;
+      margin-top: 5em;
+      
+}
+
+@media (max-width: 600px) {
+      .client-logo{
+      display: flex;
+      margin-top: 5em;
+      img{
+            width: 4em;
+            margin-left: 10px;
+      }
+}
+}

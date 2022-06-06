@@ -1,0 +1,27 @@
+.btn-wrapper{
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+      margin-top: 2em;
+     button{
+           width: 6em;
+           height: 2.5em;
+           border-radius: 5px;
+           font-family: "Ubuntu";
+     }
+     #Stop{
+           background-color: rgba(255, 0, 0, 0.627);
+     }
+     #reset{
+           background-color: rgba(255, 255, 0, 0.69);
+     }
+     #start{
+           background-color: rgba(9, 167, 9, 0.699);
+     }
+     #resume{
+           background-color: rgba(0, 0, 0, 0.675);
+           color: white;
+     }
+}
+
+ 

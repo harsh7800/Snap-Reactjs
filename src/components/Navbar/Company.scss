@@ -1,0 +1,101 @@
+
+.company-dropdown{
+       display: flex;
+      flex-direction: column;
+      h2{
+            font-size: 1.3em;
+            font-family: "Concert One" , cursive;
+            cursor: pointer;
+      }
+      .company-item{
+            display: none;
+      }
+      .company-item.show{
+              display: block;
+                  position: absolute;
+                  z-index: 1000;
+                  top: 3em;
+                  left: 40%;
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                        text-align: left;
+                         width: 6em;
+                         height: 6em;
+                         font-family: "DM sans" , cursive;
+                         border-radius: 10px;
+                         font-family: "Concert One", cursive;
+                        background-color: white;
+                       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                       #li{
+                             text-decoration: none;
+                             display: block;
+                             color: rgba(0, 0, 0, 0.514);
+                             margin-left: 15%;
+                       }
+      }
+}
+
+      @media (min-width: 600px) and (max-width: 900px) {
+            .company-dropdown{
+            display: block;
+            position: relative;
+            h2{
+                  font-size: 1.3em;
+                  cursor: pointer;
+                  font-family: "Concert One" , cursive;
+            }
+            .company-item{
+                  display: none;
+                  position: relative;
+            }
+            .company-item.show{
+                  display: block;
+                  position: relative;
+                  top: .5em;
+                  left: 10%;
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                        text-align: left;
+                         width: 7em;
+                         height: 6em;
+                         border-radius: 10px;
+                         font-family: "Concert One", cursive;
+                        background-color: white;
+                       box-shadow: 0px 0px 0px 0px;
+            }
+      }
+      }
+
+ @media (max-width: 600px) {
+            .company-dropdown{
+            display: block;
+            position: relative;
+            h2{
+                  font-size: 1.3em;
+                  cursor: pointer;
+                  font-family: "Concert One" , cursive;
+            }
+            .company-item{
+                  display: none;
+                  position: relative;
+            }
+            .company-item.show{
+                  display: block;
+                  position: relative;
+                  top: .5em;
+                  left: 10%;
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                        text-align: left;
+                         width: 7em;
+                         height: 6em;
+                         border-radius: 10px;
+                         font-family: "DM sans" , cursive;
+                        background-color: white;
+                       box-shadow: 0px 0px 0px 0px;
+            }
+      }
+      }

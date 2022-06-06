@@ -1,0 +1,93 @@
+.person-container-main{
+      margin-top: 2em;
+      margin-left: 32%;
+      .person-wrapper{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2em;
+            background-color: deepskyblue;
+            width: 30vw;
+            height: 7em;
+            border-radius: 20px;
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+            margin-bottom: 20px;
+            .person-img{
+                  width: 5em;
+                  border-radius: 50%;
+            }
+            .person-info{
+                  font-family: "ubuntu";
+                  .person-name{
+                        font-size: 1.2em;
+                  }
+                  .person-age{
+                        font-size: 1.2em;
+                  }
+            }
+      }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+      .person-container-main{
+            margin-top: 2em;
+            margin-left: 20%;
+      .person-wrapper{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2em;
+            background-color: deepskyblue;
+            width: 50vw;
+            height: 7em;
+            border-radius: 20px;
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+            margin-bottom: 20px;
+            .person-img{
+                  border-radius: 50%;
+            }
+            .person-info{
+                  .person-name{
+                        font-size: 1.2em;
+                  }
+                  .person-age{
+                        font-size: 1.2em;
+                  }
+            }
+      }
+   }
+}
+
+@media (max-width: 600px) {
+      .person-container-main{
+            margin-top: 2em;
+            margin-left: 8%;
+      .person-wrapper{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2em;
+            background-color: deepskyblue;
+            width: 70vw;
+            height: 7em;
+            border-radius: 20px;
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+            margin-bottom: 20px;
+            .person-img{
+                  width: 3.5em;
+                  border-radius: 50%;
+            }
+            .person-info{
+                  .person-name{
+                        font-size: 1em;
+                  }
+                  .person-age{
+                        font-size: 1em;
+                  }
+            }
+      }
+   }
+}
