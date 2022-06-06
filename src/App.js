@@ -14,18 +14,17 @@ export default function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/">
-          <Section />
-        </Route>
-        <Route path='/Todo-List'><Todo/></Route>
-        <Route path='/Calendar'><Calendar/></Route>
-        <Route path='/Reminder'><Reminder/></Route>
-        <Route path='/Stopwatch'><Stopwatch/></Route>
-        <Route path='/History'><Error/></Route>
-        <Route path='/Our-Team'><Error/></Route>
-        <Route path='/Blog'><Error/></Route>
-        <Route path='/Career'><Error/></Route>
-        <Route path='/About'><Error/></Route>
+        <Route path='/' element={<Section/>}/>
+        <Route exact path="/todo-list" element={<Todo />} />
+        <Route exact path="/calendar" element={<Calendar />} />
+        <Route exact path="/reminder" element={<Reminder />} />
+        <Route exact path="/stopwatch" element={<Stopwatch />} />
+        <Route exact path="/History" element={<Error />} />
+        <Route exact path="/Our-Team" element={<Error />} />
+        <Route exact path="/Blog" element={<Error />} />
+        <Route exact path="/Career" element={<Error />} />
+        <Route exact path="/About" element={<Error />} />
+        <Route exact path="/Home" element={<Section />} />
       </Routes>
     </>
   );
