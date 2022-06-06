@@ -9,22 +9,24 @@ import Calendar from "./components/calendar/DatePicker";
 import Reminder from "./components/reminder/Reminder";
 import Stopwatch from "./components/Stopwatch/Stopwatch";
 import Error from "./Error";
+import Section from './components/main-Section/Section';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
+    <App/>
     <Routes>
-      <Route path="/" element={<App/>} />
-      <Route path="/todo-list" element={<Todo />} />
-      <Route path="/calendar" element={<Calendar />} />
-      <Route path="/reminder" element={<Reminder />} />
-      <Route path="/stopwatch" element={<Stopwatch />} />
-      <Route path="/History" element={<Error />} />
-      <Route path="/Our-Team" element={<Error />} />
-      <Route path="/Blog" element={<Error />} />
-      <Route path="/Career" element={<Error />} />
-      <Route path="/About" element={<Error />} />
-      <Route path="/Home" element={<App />} />
+      <Route  path='/'><Section/></Route>
+      <Route exact path="/todo-list" element={<Todo />} />
+      <Route exact path="/calendar" element={<Calendar />} />
+      <Route exact path="/reminder" element={<Reminder />} />
+      <Route exact path="/stopwatch" element={<Stopwatch />} />
+      <Route exact path="/History" element={<Error />} />
+      <Route exact path="/Our-Team" element={<Error />} />
+      <Route exact path="/Blog" element={<Error />} />
+      <Route exact path="/Career" element={<Error />} />
+      <Route exact path="/About" element={<Error />} />
+      <Route exact path="/Home" element={<Section/>} />
     </Routes>
   </BrowserRouter>
 );
