@@ -19,9 +19,9 @@ function Company() {
         )}
       </h2>
       <ul className={Dropdown ? "company-item show" : "company-item"}>
-        <Link to="/History" id='li'>History</Link>
-        <Link to="/Our-Team" id='li'>Our-Team</Link>
-        <Link to="/Blog" id='li'>Blog</Link>
+        <Link to="/history" id='li'>History</Link>
+        <Link to="/our-team" id='li'>Our-Team</Link>
+        <Link to="/blog" id='li'>Blog</Link>
       </ul>
     </div>
   );

@@ -22,10 +22,10 @@ export default function Navbar() {
           <li>
 
           <Link
-            to="/Career"
+            to="/career"
             style={{
               fontSize: "1.3em",
-              marginTop: "-.3em",
+              marginTop: "-.4em",
               marginLeft: "30px",
               textDecoration: "none",
               color: "rgba(0, 0, 0, 0.514)",
@@ -39,7 +39,7 @@ export default function Navbar() {
             
           <Link
             id="li"
-            to="/About"
+            to="/about"
             style={{
               textDecoration: "none",
               color: "rgba(0, 0, 0, 0.514)",
@@ -54,7 +54,7 @@ export default function Navbar() {
             </li>
           <Link
             id="li"
-            to="/Home"
+            to="/home"
             style={{
               textDecoration: "none",
               color: "rgba(0, 0, 0, 0.514)",
